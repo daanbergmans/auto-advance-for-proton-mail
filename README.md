@@ -8,6 +8,10 @@
   A Firefox add-on that opens the next email automatically after you archive, delete or move the one you're reading in Proton Mail.
 </p>
 
+<p align="center">
+  <a href="https://addons.mozilla.org/firefox/addon/auto-advance-for-proton-mail/">Get it on Firefox Add-ons</a>
+</p>
+
 ---
 
 Proton Mail's web app sends you back to the message list every time you archive or delete an email, so you have to click the next one yourself. This add-on brings Gmail-style auto-advance to Proton Mail: deal with an email and the next one opens straight away.
