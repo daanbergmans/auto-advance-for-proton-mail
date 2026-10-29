@@ -21,7 +21,7 @@ Proton Mail's web app sends you back to the message list every time you archive 
 - **Works however you act on an email:** toolbar buttons, keyboard shortcuts (like `A` to archive or `T` to trash) and drag-and-drop to a folder.
 - **Stays out of the way:** closing an email without removing it (Escape, back, mark as unread, adding a label) doesn't trigger anything.
 - **Sensible at the end of the list:** if you remove the last email, it opens the one above instead.
-- **Choose a direction:** advance to the email below (default) or above, in the add-on's options.
+- **Choose a direction:** advance to the email below (default) or above.
 - **Private:** no data collection, no network requests, no tracking.
 
 ## Install
@@ -29,6 +29,11 @@ Proton Mail's web app sends you back to the message list every time you archive 
 Install it from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/auto-advance-for-proton-mail/).
 
 Requires Firefox 140 or later.
+
+## How to use it
+
+- **Just keep working:** archive, delete or move an email the way you normally do, and the next one opens.
+- **Options:** to change the direction or turn on debug logging, open the add-on's options from `about:addons`.
 
 ## How it works
 
@@ -64,7 +69,7 @@ To see what the add-on is doing, enable **Log to the browser console** in its op
 ### Packaging
 
 ```sh
-zip -r proton-auto-advance.zip manifest.json content.js options.html options.js icons/*.png
+zip -r auto-advance-for-proton-mail.zip manifest.json content.js options.html options.js icons/*.png
 ```
 
 ## Troubleshooting
